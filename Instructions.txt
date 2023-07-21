@@ -1,0 +1,12 @@
+To run the code successfully, you need to install the following dependencies, modules, and packages:
+1.newspaper3k: It is used for downloading and parsing articles. Install it using the following command:
+pip install newspaper3k
+2.nltk (Natural Language Toolkit): It is used for various natural language processing tasks. Install it using the following command:
+pip install nltk
+3.textblob: It provides an easy interface for performing sentiment analysis. Install it using the following command:
+pip install textblob
+4.NLTK resources: You need to download additional resources for tokenization, part-of-speech tagging, and the CMU Pronunciation Dictionary. Run the following code to download the required resources:
+import nltk
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('cmudict')
